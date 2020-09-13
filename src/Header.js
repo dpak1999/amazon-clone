@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       {/* Logo */}
-      <img className="header__logo" src="./img/amzon-logo.png"></img>
+      <img className="header__logo" src="./img/amzon-logo.png" alt="Logo" />
       {/* search bar */}
       <div className="header__search">
         <input className="header__searchInput" type="text" />
