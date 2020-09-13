@@ -13,20 +13,22 @@ function Home() {
             src="./img/amazon-banner.jpg"
             alt="Banner"
           />
-        </div>
 
-        <div className="home__row">
-          <Product />
-          {/* product */}
-        </div>
+          <div className="home__row">
+            <Product />
+            <Product />
+          </div>
 
-        <div className="home__row">
-          {/* product */}
-          {/* product */}
-          {/* product */}
-        </div>
+          <div className="home__row">
+            <Product />
+            <Product />
+            <Product />
+          </div>
 
-        <div className="home__row">{/* product */}</div>
+          <div className="home__row">
+            <Product />
+          </div>
+        </div>
       </div>
     </div>
   );
